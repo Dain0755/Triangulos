@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/space"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#275F67"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/ladoUno"
+                android:textSize="15sp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/lado1">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/ladoDos"
+                android:textSize="15sp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/lado2">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/ladoTres"
+                android:textSize="15sp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/lado3">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="10dp"
+                android:text="@string/identificar"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:id="@+id/boton"
+                android:onClick="calculo">
+
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/resultado"
+                android:paddingVertical="14dp"
+                android:textAlignment="center"
+                android:textColorHint="@color/white"
+                android:textSize="25sp"
+                android:id="@+id/resultado"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:id="@+id/imagen">
+
+    </ImageView>
+
+</LinearLayout>
+

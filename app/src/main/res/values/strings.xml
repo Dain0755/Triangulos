@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Triangulos</string>
+    <string name="titulo">Bienvenido al identificador de triangulos</string>
+    <string name="ladoUno">Inserte el primer lado del triangulo:</string>
+    <string name="ladoDos">Inserte el segundo lado del triangulo:</string>
+    <string name="ladoTres">Inserte el tercer lado del triangulo:</string>
+    <string name="identificar">Identificar</string>
+    <string name="resultado">resultado</string>
+
+</resources>
